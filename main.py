@@ -20,7 +20,7 @@ try:
     response = requests.patch("https://discord.com/api/v10/users/@me", headers=headers, json=data)
 
     if response.ok:
-        print("Avatar Updated Successfully!")
+        print("Avatar Updated!")
     else:
         print("Failed to Update Avatar:", response.status_code)
         print("Response body:", response.text)
