@@ -1,8 +1,8 @@
 import requests
 import base64
 
-token = 'MTEzNjE3NzcxMzE2MjUwNjI5MA.G7eooO.ihR_RAbjeQClJWepTQpy1QvcnHu5cP9JVGJhq4'
-avatar_path = './Night_Melodies.gif'
+token = ""
+avatar_path = './Animated-Avatar.gif'
 
 try:
     with open(avatar_path, 'rb') as file:
