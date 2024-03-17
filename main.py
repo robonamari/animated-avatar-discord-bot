@@ -1,7 +1,7 @@
 import requests
 import base64
 
-token = ""
+token = ''
 avatar_path = './Animated-Avatar.gif'
 
 try:
@@ -17,13 +17,13 @@ try:
         'avatar': f'data:image/gif;base64,{new_avatar}'
     }
 
-    response = requests.patch("https://discord.com/api/v10/users/@me", headers=headers, json=data)
+    response = requests.patch('https://discord.com/api/v10/users/@me', headers=headers, json=data)
 
     if response.ok:
-        print("Avatar Updated!")
+        print('Avatar Updated!')
     else:
-        print("Failed to Update Avatar:", response.status_code)
-        print("Response body:", response.text)
+        print('Failed to Update Avatar:', response.status_code)
+        print('Response body:', response.text)
 
 except Exception as error:
-    print("There is an Error here:", error)
+    print('There is an Error here:', error)
