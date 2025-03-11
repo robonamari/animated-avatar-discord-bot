@@ -14,7 +14,7 @@
 
 Animated Avatar Discord Bot is a tool written in Python. It sets Animated Avatar for your Discord Bots!
 ## Help
-* Set your Bot Token in [line 4](https://github.com/robonamari/Animated-Avatar-Discord-Bot/blob/main/main.py#L4).
-* Put your Avatar File in the folder then change [line 5](https://github.com/robonamari/Animated-Avatar-Discord-Bot/blob/main/main.py#L5) and set your Path.
+* Set your Bot Token in [line 4](main.py#L4).
+* Put your Avatar File in the folder then change [line 5](main.py#L5) and set your Path.
 
 
