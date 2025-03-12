@@ -2,8 +2,8 @@ import base64
 
 import requests
 
+avatar_path = "./Avatar.gif"
 token = ""
-avatar_path = "./Animated-Avatar.gif"
 
 try:
     with open(avatar_path, "rb") as file:
