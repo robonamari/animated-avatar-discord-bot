@@ -40,5 +40,5 @@ try:
         print(f"Failed to Update Avatar: {response.status_code}")
         print(f"Response body: {response.text}")
 
-except Exception as error:
-    print(f"There is an Error here: {error}")
+except Exception as e:
+    print(f"There is an Error here: {e}")
