@@ -29,7 +29,7 @@ try:
     response = requests.patch(
         "https://discord.com/api/v10/users/@me",
         headers={
-            "Authorization": f"Bot {os.getenv("TOKEN")}",
+            "Authorization": f"Bot {os.getenv('TOKEN')}",
             "Content-Type": "application/json",
         },
         json={"avatar": f"data:image/gif;base64,{avatar_data}"},
