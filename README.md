@@ -9,6 +9,8 @@
 
 ---
 
+![banner](/.github/banner.png)
+
 </div>
 
 Animated Avatar Discord Bot is a tool written in Python. It sets Animated Avatar for your Discord Bots!
